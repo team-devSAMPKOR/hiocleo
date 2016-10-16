@@ -2,7 +2,7 @@
 
 <p>
 	HI0 CLEO 2016 STRUCTURE<p>
-	<h6>
+	<h3>
 	intro
 
 	main 1 ~ main 21
@@ -63,5 +63,5 @@
 	mubanWeaponONService
 	mubanWeaponOFFService
 	mubanWeaponServiceImpl
-	</h6>	
+
   <p>

@@ -1,6 +1,6 @@
 #HI0 CLEO 2016
-/* TODO : HI0 CLEO 2016 STRUCTURE<br><br>
-<br>
+TODO : HI0 CLEO 2016 STRUCTURE<br><br>
+<p>
 intro<br>
     <br>
     main 1 ~ main 21<br>
@@ -60,7 +60,5 @@ intro<br>
                          mubanWeaponOFF<br>
                          mubanWeaponONService<br>
                          mubanWeaponOFFService<br>
-                         mubanWeaponServiceImpl           <br>      
-                             <br>
-                                   <br>
-*/
+                         mubanWeaponServiceImpl
+</p>

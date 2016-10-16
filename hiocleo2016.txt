@@ -16,7 +16,10 @@ Player.InfiniteRun($PLAYER_CHAR) = True
 12@ = 0
 jump @hioCleo_main_1
 
-/* ------------------------------------ 컨트롤러 단---------------------------*/
+/* ------------------------------------ 컨트롤러 단---------------------------
+ @ main 1 ~ main 21
+ TODO : README.md
+*/
 :hioCleo_main_1
 0001: wait 0 ms
 Player.SetDrunkVisuals($PLAYER_CHAR, 0)

@@ -57,7 +57,7 @@
 	비행기선회앵글 airplaneAngle 32
 	airplaneAngle_SETUP
 
-	무반동ON/OFF mubanWeapon 8 187
+	무반동ON/OFF mubanWeapon 8 189
 	mubanWeaponON
 	mubanWeaponOFF
 	mubanWeaponONService

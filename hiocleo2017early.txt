@@ -1,0 +1,715 @@
+// This file was decompiled using SASCM.ini published by GTAG (http://gtag.gtagaming.com/opcode-database/) on 24.2.2014
+{$CLEO .cs}
+
+//-------------MAIN---------------
+03A4: script_name 'HIOCLEO' 
+0001: wait 0 
+0330: set_player_never_gets_tired $PLAYER_CHAR set 1 
+0946: set_char_uses_upperbody_damage_anims_only $PLAYER_ACTOR to 1 
+0ACD: print_string_now "~N~~<~ HI0000000000 CLEO 2017 EARLY VER ~>~" time 10000 
+0006: 6@ = 0 
+0006: 7@ = 0 
+0006: 8@ = 0 
+0006: 9@ = 0 
+0006: 10@ = 0 
+0006: 12@ = 0 
+0002: goto @HIOCLEO_122 
+
+:HIOCLEO_122
+0001: wait 0 
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+00D6: if and
+00DF:   is_char_in_any_car $PLAYER_ACTOR 
+0AB0:   is_key_pressed 16 
+004D: goto_if_false @HIOCLEO_160 
+0002: goto @HIOCLEO_2508 
+
+:HIOCLEO_160
+0001: wait 0 
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+00D6: if and
+00DF:   is_char_in_any_car $PLAYER_ACTOR 
+0AB0:   is_key_pressed 2 
+004D: goto_if_false @HIOCLEO_198 
+0002: goto @HIOCLEO_2336 
+
+:HIOCLEO_198
+0001: wait 0 
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+00D6: if 
+0AB0:   is_key_pressed 32 
+004D: goto_if_false @HIOCLEO_231 
+0002: goto @HIOCLEO_5632 
+
+:HIOCLEO_231
+0001: wait 0 
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+00D6: if and
+0AB0:   is_key_pressed 122 
+0AB0:   is_key_pressed 187 
+004D: goto_if_false @HIOCLEO_269 
+0002: goto @HIOCLEO_1492 
+
+:HIOCLEO_269
+0001: wait 0 
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+00D6: if and
+0AB0:   is_key_pressed 122 
+0AB0:   is_key_pressed 189 
+004D: goto_if_false @HIOCLEO_307 
+0002: goto @HIOCLEO_1607 
+
+:HIOCLEO_307
+0001: wait 0 
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+00D6: if and
+0AB0:   is_key_pressed 123 
+0AB0:   is_key_pressed 187 
+004D: goto_if_false @HIOCLEO_345 
+0002: goto @HIOCLEO_1680 
+
+:HIOCLEO_345
+0001: wait 0 
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+00D6: if and
+0AB0:   is_key_pressed 123 
+0AB0:   is_key_pressed 189 
+004D: goto_if_false @HIOCLEO_383 
+0002: goto @HIOCLEO_1735 
+
+:HIOCLEO_383
+0001: wait 0 
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+00D6: if and
+0AB0:   is_key_pressed 2 
+0AB0:   is_key_pressed 70 
+004D: goto_if_false @HIOCLEO_420 
+0002: goto @HIOCLEO_1792 
+
+:HIOCLEO_420
+0001: wait 0 
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+00D6: if and
+00DF:   is_char_in_any_car $PLAYER_ACTOR 
+0AB0:   is_key_pressed 120 
+0AB0:   is_key_pressed 187 
+004D: goto_if_false @HIOCLEO_463 
+0002: goto @HIOCLEO_1875 
+
+:HIOCLEO_463
+0001: wait 0 
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+00D6: if and
+00DF:   is_char_in_any_car $PLAYER_ACTOR 
+0AB0:   is_key_pressed 120 
+0AB0:   is_key_pressed 189 
+004D: goto_if_false @HIOCLEO_506 
+0002: goto @HIOCLEO_1958 
+
+:HIOCLEO_506
+0001: wait 0 
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+00D6: if and
+00DF:   is_char_in_any_car $PLAYER_ACTOR 
+0AB0:   is_key_pressed 90 
+0AB0:   is_key_pressed 88 
+004D: goto_if_false @HIOCLEO_548 
+0002: goto @HIOCLEO_2042 
+
+:HIOCLEO_548
+0001: wait 0 
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+00D6: if and
+00DF:   is_char_in_any_car $PLAYER_ACTOR 
+00E1:   is_button_pressed 0 button 17 
+004D: goto_if_false @HIOCLEO_588 
+0002: goto @HIOCLEO_2137 
+
+:HIOCLEO_588
+0001: wait 0 
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+00D6: if and
+0AB0:   is_key_pressed 81 
+0AB0:   is_key_pressed 87 
+0AB0:   is_key_pressed 69 
+004D: goto_if_false @HIOCLEO_629 
+0002: goto @HIOCLEO_2887 
+
+:HIOCLEO_629
+0001: wait 0 
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+00D6: if and
+0AB0:   is_key_pressed 120 
+0AB0:   is_key_pressed 122 
+82D8:   not is_char_holding_weapon $PLAYER_ACTOR weapon 0 
+004D: goto_if_false @HIOCLEO_673 
+0002: goto @HIOCLEO_981 
+
+:HIOCLEO_673
+0001: wait 0 
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+00D6: if and
+0AB0:   is_key_pressed 186 
+0AB0:   is_key_pressed 222 
+004D: goto_if_false @HIOCLEO_712 
+0002: goto @HIOCLEO_2600 
+
+:HIOCLEO_712
+0001: wait 0 
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+00D6: if and
+0AB0:   is_key_pressed 8 
+0AB0:   is_key_pressed 221 
+004D: goto_if_false @HIOCLEO_750 
+0002: goto @HIOCLEO_4504 
+
+:HIOCLEO_750
+0001: wait 0 
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+00D6: if and
+0AB0:   is_key_pressed 8 
+0AB0:   is_key_pressed 187 
+004D: goto_if_false @HIOCLEO_788 
+0002: goto @HIOCLEO_1062 
+
+:HIOCLEO_788
+0001: wait 0 
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+00D6: if and
+0AB0:   is_key_pressed 46 
+0AB0:   is_key_pressed 220 
+004D: goto_if_false @HIOCLEO_826 
+0002: goto @HIOCLEO_5581 
+
+:HIOCLEO_826
+0001: wait 0 
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+00D6: if and
+0AB0:   is_key_pressed 120 
+0AB0:   is_key_pressed 123 
+004D: goto_if_false @HIOCLEO_863 
+0002: goto @HIOCLEO_1427 
+
+:HIOCLEO_863
+0001: wait 0 
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+00D6: if and
+00DF:   is_char_in_any_car $PLAYER_ACTOR 
+0AB0:   is_key_pressed 120 
+0AB0:   is_key_pressed 121 
+004D: goto_if_false @HIOCLEO_905 
+0002: goto @HIOCLEO_5119 
+
+:HIOCLEO_905
+0001: wait 0 
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+00D6: if and
+0AB0:   is_key_pressed 8 
+0AB0:   is_key_pressed 189 
+004D: goto_if_false @HIOCLEO_943 
+0002: goto @HIOCLEO_5196 
+
+:HIOCLEO_943
+0001: wait 0 
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+00D6: if and
+00DF:   is_char_in_any_car $PLAYER_ACTOR 
+0AB0:   is_key_pressed 17 
+004D: goto_if_false @HIOCLEO_122 
+0002: goto @HIOCLEO_5733 
+
+:HIOCLEO_981
+0001: wait 0 
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+0ACD: print_string_now "HI0 CLEO : ONE AMMO" time 1000 
+0470: get_current_char_weapon $PLAYER_ACTOR store_to 0@ 
+041A: get_ammo_in_char_weapon $PLAYER_ACTOR weapon 0@ store_to 1@ 
+000A: 1@ += 1 
+017B: set_char_ammo $PLAYER_ACTOR weapon 0@ to 1@ 
+0002: goto @HIOCLEO_673 
+
+:HIOCLEO_1062
+0001: wait 0 
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+00D6: if 
+0039:   7@ == 1 
+004D: goto_if_false @HIOCLEO_1098 
+0002: goto @HIOCLEO_1265 
+
+:HIOCLEO_1098
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+0A8C: write_memory 7600773 size 1 val 144 vp 1 
+0A8C: write_memory 7600815 size 1 val 144 vp 1 
+0A8C: write_memory 7600816 size 2 val 37008 vp 1 
+0A8C: write_memory 7612591 size 1 val 144 vp 1 
+0A8C: write_memory 7612646 size 1 val 144 vp 1 
+0A8C: write_memory 7612647 size 2 val 37008 vp 1 
+0ACD: print_string_now "HI0 CLEO : MUHAN AMMO ~B~ON" time 1000 
+018C: add_one_off_sound 0.0 0.0 0.0 sound 1084 
+0006: 7@ = 1 
+0001: wait 50 
+0002: goto @HIOCLEO_122 
+
+:HIOCLEO_1265
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+0A8C: write_memory 7600773 size 1 val 72 vp 1 
+0A8C: write_memory 7600815 size 1 val 255 vp 1 
+0A8C: write_memory 7600816 size 2 val 3150 vp 1 
+0A8C: write_memory 7612591 size 1 val 72 vp 1 
+0A8C: write_memory 7612646 size 1 val 255 vp 1 
+0A8C: write_memory 7612647 size 2 val 3150 vp 1 
+0ACD: print_string_now "HI0 CLEO : MUHAN AMMO ~R~OFF" time 1000 
+018C: add_one_off_sound 0.0 0.0 0.0 sound 1083 
+0006: 7@ = 0 
+0001: wait 50 
+0002: goto @HIOCLEO_122 
+
+:HIOCLEO_1427
+0001: wait 0 
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+0470: get_current_char_weapon $PLAYER_ACTOR store_to 0@ 
+0555: remove_weapon_from_char $PLAYER_ACTOR weapon 0@ 
+0ACD: print_string_now "HI0 CLEO : DELETE WEAPON" time 1000 
+0002: goto @HIOCLEO_122 
+
+:HIOCLEO_1492
+0226: get_char_health $PLAYER_ACTOR store_to 2@ 
+0001: wait 0 
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+00D6: if 
+8029:   not  2@ >= 100 
+004D: goto_if_false @HIOCLEO_122 
+0002: goto @HIOCLEO_1536 
+
+:HIOCLEO_1536
+0001: wait 0 
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+0226: get_char_health $PLAYER_ACTOR store_to $PLAYER_HEALTH 
+0008: $PLAYER_HEALTH += 5 
+0223: set_char_health $PLAYER_ACTOR to $PLAYER_HEALTH 
+0ACD: print_string_now "HI0 CLEO : HEALTH ~B~UP" time 1000 
+0002: goto @HIOCLEO_122 
+
+:HIOCLEO_1607
+0001: wait 0 
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+0226: get_char_health $PLAYER_ACTOR store_to $PLAYER_HEALTH 
+000C: $PLAYER_HEALTH -= 5 
+0223: set_char_health $PLAYER_ACTOR to $PLAYER_HEALTH 
+0ACD: print_string_now "HI0 CLEO : HEALTH ~R~DOWN" time 1000 
+0002: goto @HIOCLEO_122 
+
+:HIOCLEO_1680
+0001: wait 0 
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+035F: add_armour_to_char $PLAYER_ACTOR armour 5 
+0ACD: print_string_now "HI0 CLEO : ARMOUR ~B~UP" time 1000 
+0002: goto @HIOCLEO_122 
+
+:HIOCLEO_1735
+0001: wait 0 
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+035F: add_armour_to_char $PLAYER_ACTOR armour 5 
+0ACD: print_string_now "HI0 CLEO : ARMOUR ~R~DOWN" time 1000 
+0002: goto @HIOCLEO_122 
+
+:HIOCLEO_1792
+0001: wait 0 
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+0619: set_char_collision $PLAYER_ACTOR to 0 
+0002: goto @HIOCLEO_1817 
+
+:HIOCLEO_1817
+0001: wait 0 
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+00D6: if 
+8AB0:   not is_key_pressed 70 
+004D: goto_if_false @HIOCLEO_1817 
+0002: goto @HIOCLEO_1850 
+
+:HIOCLEO_1850
+0001: wait 0 
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+0619: set_char_collision $PLAYER_ACTOR to 1 
+0002: goto @HIOCLEO_122 
+
+:HIOCLEO_1875
+0001: wait 0 
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+0ACD: print_string_now "HI0 CLEO : :CARHEALTH ~B~UP" time 1000 
+03C0: store_car_char_is_in_no_save $PLAYER_ACTOR store_to 3@ 
+0227: get_car_health 3@ store_to 11@ 
+000A: 11@ += 50 
+0224: set_car_health 3@ to 11@ 
+0002: goto @HIOCLEO_122 
+
+:HIOCLEO_1958
+0001: wait 0 
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+0ACD: print_string_now "HI0 CLEO : CARHEALTH ~R~DOWN" time 1000 
+03C0: store_car_char_is_in_no_save $PLAYER_ACTOR store_to 3@ 
+0227: get_car_health 3@ store_to 11@ 
+000E: 11@ -= 50 
+0224: set_car_health 3@ to 11@ 
+0002: goto @HIOCLEO_122 
+
+:HIOCLEO_2042
+0001: wait 0 
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+03C0: store_car_char_is_in_no_save $PLAYER_ACTOR store_to 3@ 
+07DB: set_car_rotation_velocity 3@ to 0.0 1.0 0.0 
+0ACD: print_string_now "HI0 CLEO : ANTICAR TURN" time 1000 
+00D6: if and
+8AB0:   not is_key_pressed 90 
+8AB0:   not is_key_pressed 88 
+004D: goto_if_false @HIOCLEO_2042 
+0002: goto @HIOCLEO_122 
+
+:HIOCLEO_2137
+0001: wait 0 
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+00D6: if and
+84C8:   not is_char_in_flying_vehicle $PLAYER_ACTOR 
+84A7:   not is_char_in_any_boat $PLAYER_ACTOR 
+847A:   not is_char_on_any_bike $PLAYER_ACTOR 
+004D: goto_if_false @HIOCLEO_122 
+0002: goto @HIOCLEO_2181 
+
+:HIOCLEO_2181
+0001: wait 50 
+00DF:   is_char_in_any_car $PLAYER_ACTOR 
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+03C0: store_car_char_is_in_no_save $PLAYER_ACTOR store_to 3@ 
+09E9: give_non_player_car_nitro 3@ 
+0ACD: print_string_now "HI0 CLEO : CLICK NITRO ~B~ON" time 1000 
+00D6: if 
+80E1:   not is_button_pressed 0 button 17 
+004D: goto_if_false @HIOCLEO_2181 
+0002: goto @HIOCLEO_2269 
+
+:HIOCLEO_2269
+0001: wait 0 
+00DF:   is_char_in_any_car $PLAYER_ACTOR 
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+06E8: remove_vehicle_mod 3@ slot 1009 
+0ACD: print_string_now "HI0 CLEO : CLICK NITRO ~R~OFF" time 1000 
+0002: goto @HIOCLEO_122 
+
+:HIOCLEO_2336
+0001: wait 0 
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+03C0: store_car_char_is_in_no_save $PLAYER_ACTOR store_to 3@ 
+01EC: set_car_heavy 3@ to 3 
+03F5: set_car_can_be_damaged 3@ to 0 
+0ACD: print_string_now "HI0 CLEO : POWER PIT ~B~ON" time 1000 
+0002: goto @HIOCLEO_2409 
+
+:HIOCLEO_2409
+0001: wait 0 
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+00D6: if 
+8AB0:   not is_key_pressed 2 
+004D: goto_if_false @HIOCLEO_2409 
+0002: goto @HIOCLEO_2442 
+
+:HIOCLEO_2442
+0001: wait 0 
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+01EC: set_car_heavy 3@ to 0 
+03F5: set_car_can_be_damaged 3@ to 1 
+0ACD: print_string_now "HI0 CLEO : POWER PIT ~R~OFF" time 1000 
+0002: goto @HIOCLEO_122 
+
+:HIOCLEO_2508
+0001: wait 0 
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+03C0: store_car_char_is_in_no_save $PLAYER_ACTOR store_to 3@ 
+07DB: set_car_rotation_velocity 3@ to 0.0 0.0 0.0 
+0ACD: print_string_now "HI0 CLEO : DRIFT CONTROL" time 1000 
+00D6: if 
+8AB0:   not is_key_pressed 16 
+004D: goto_if_false @HIOCLEO_2508 
+0002: goto @HIOCLEO_122 
+
+:HIOCLEO_2600
+0001: wait 0 
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+00D6: if 
+0039:   6@ == 1 
+004D: goto_if_false @HIOCLEO_2636 
+0002: goto @HIOCLEO_2765 
+
+:HIOCLEO_2636
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+04ED: request_animation "SWAT" 
+0605: task_play_anim $PLAYER_ACTOR anim "SWT_VNT_SHT_DIE" ifp "SWAT" framedelta 4.0 loop 0 lockX 0 lockY 0 lockF 1 time 0 
+0ACD: print_string_now "HI0 CLEO : SHOW SWAT ~B~ON" time 1000 
+018C: add_one_off_sound 0.0 0.0 0.0 sound 1084 
+0006: 6@ = 1 
+0001: wait 50 
+0002: goto @HIOCLEO_122 
+
+:HIOCLEO_2765
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+04ED: request_animation "FAT" 
+0605: task_play_anim $PLAYER_ACTOR anim "FATSPRINT" ifp "FAT" framedelta 4.0 loop 1 lockX 1 lockY 1 lockF 0 time 1 
+0ACD: print_string_now "HI0 CLEO : SHOW SWAT ~R~OFF" time 1000 
+018C: add_one_off_sound 0.0 0.0 0.0 sound 1083 
+0006: 6@ = 0 
+0001: wait 50 
+0002: goto @HIOCLEO_122 
+
+:HIOCLEO_2887
+0001: wait 0 
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+0007: 4@ = 6.2 
+0007: 5@ = 6.5 
+0ACD: print_string_now "HI0 CLEO : FAST RUN" time 1000 
+0002: goto @HIOCLEO_2951 
+
+:HIOCLEO_2951
+0001: wait 0 
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "WALK_PLAYER" to 4@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "GUNCROUCHFWD" to 4@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "GUNCROUCHBWD" to 4@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "GUNMOVE_BWD" to 4@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "GUNMOVE_FWD" to 4@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "GUNMOVE_L" to 4@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "GUNMOVE_R" to 4@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "RUN_GANG1" to 4@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "JOG_FEMALEA" to 4@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "JOG_MALEA" to 4@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "RUN_CIVI" to 4@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "RUN_CSAW" to 4@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "RUN_FAT" to 4@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "RUN_FATOLD" to 4@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "RUN_GANG1" to 4@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "RUN_OLD" to 4@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "RUN_ROCKET" to 4@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "RUN_WUZI" to 4@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "SPRINT_WUZI" to 4@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "WALK_ARMED" to 4@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "RUN_ROCKET" to 4@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "WALK_CIVI" to 4@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "WALK_CSAW" to 4@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "WALK_DRUNK" to 4@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "WALK_FAT" to 4@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "WALK_FATOLD" to 4@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "WALK_GANG1" to 4@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "WALK_GANG2" to 4@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "WALK_OLD" to 4@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "WALK_SHUFFLE" to 4@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "WALK_START" to 4@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "WALK_START_ARMED" to 4@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "WALK_START_CSAW" to 4@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "WALK_START_ROCKET" to 4@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "WALK_WUZI" to 4@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "WOMAN_RUN" to 5@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "WOMAN_RUNBUSY" to 5@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "WOMAN_RUNFATOLD" to 4@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "WOMAN_RUNPANIC" to 5@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "WOMAN_RUNSEXY" to 5@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "WOMAN_WALKBUSY" to 4@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "WOMAN_WALKFATOLD" to 4@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "WOMAN_WALKNORM" to 4@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "WOMAN_WALKOLD" to 4@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "WOMAN_WALKPRO" to 4@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "WOMAN_WALKSEXY" to 4@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "WOMAN_WALKSHOP" to 4@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "RUN_1ARMED" to 4@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "RUN_ARMED" to 4@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "RUN_PLAYER" to 4@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "SPRINT_CIVI" to 5@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "SPRINT_PANIC" to 5@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "SWAT_RUN" to 5@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "WALK_ARMED" to 4@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "WALK_CSAW" to 4@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "WALK_ROCKET" to 4@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "WOMAN_RUN" to 5@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "WOMAN_RUNBUSY" to 5@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "WOMAN_RUNPANIC" to 5@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "WOMAN_RUNSEXY" to 5@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "FATSPRINT" to 5@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "CLIMB_IDLE" to 4@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "MUSCLESPRINT" to 4@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "CLIMB_PULL" to 4@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "CLIMB_STAND" to 4@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "CLIMB_STAND_FINISH" to 4@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "SPRINT_CIVI" to 5@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "SWIM_BREAST" to 4@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "SWIM_CRAWL" to 4@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "SWIM_DIVE_UNDER" to 4@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "SWIM_GLIDE" to 4@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "MUSCLERUN" to 4@ 
+0393: set_char_anim_speed $PLAYER_ACTOR anim "MUSCLESPRINT" to 4@ 
+0002: goto @HIOCLEO_122 
+
+:HIOCLEO_4504
+0001: wait 0 
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+00D6: if 
+0039:   8@ == 1 
+004D: goto_if_false @HIOCLEO_4540 
+0002: goto @HIOCLEO_4620 
+
+:HIOCLEO_4540
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+075B: set_radar_zoom 1 
+0ACD: print_string_now "HI0 CLEO : MAPHACK ~B~ON" time 1000 
+018C: add_one_off_sound 0.0 0.0 0.0 sound 1084 
+0006: 8@ = 1 
+0001: wait 50 
+0002: goto @HIOCLEO_122 
+
+:HIOCLEO_4620
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+075B: set_radar_zoom 0 
+0ACD: print_string_now "HI0 CLEO : MAPHACK ~R~OFF" time 1000 
+018C: add_one_off_sound 0.0 0.0 0.0 sound 1083 
+0006: 8@ = 0 
+0001: wait 50 
+0002: goto @HIOCLEO_122 
+0001: wait 0 
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+00D6: if 
+0039:   9@ == 1 
+004D: goto_if_false @HIOCLEO_4737 
+0002: goto @HIOCLEO_4822 
+
+:HIOCLEO_4737
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+08B1: set_night_vision 1 
+0ACD: print_string_now "HI0 CLEO : NIGHT GOGGLE ~B~ON" time 1000 
+018C: add_one_off_sound 0.0 0.0 0.0 sound 1084 
+0006: 9@ = 1 
+0001: wait 50 
+0002: goto @HIOCLEO_122 
+
+:HIOCLEO_4822
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+08B1: set_night_vision 0 
+0ACD: print_string_now "HI0 CLEO : NIGHT GOGGLE ~R~OFF" time 1000 
+018C: add_one_off_sound 0.0 0.0 0.0 sound 1083 
+0006: 9@ = 0 
+0001: wait 50 
+0002: goto @HIOCLEO_122 
+0001: wait 0 
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+00D6: if 
+0039:   10@ == 1 
+004D: goto_if_false @HIOCLEO_4944 
+0002: goto @HIOCLEO_5031 
+
+:HIOCLEO_4944
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+08B2: set_infrared_vision 1 
+0ACD: print_string_now "HI0 CLEO : THERMAL GOGGLE ~B~ON" time 1000 
+018C: add_one_off_sound 0.0 0.0 0.0 sound 1084 
+0006: 10@ = 1 
+0001: wait 50 
+0002: goto @HIOCLEO_122 
+
+:HIOCLEO_5031
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+08B2: set_infrared_vision 0 
+0ACD: print_string_now "HI0 CLEO : THERMAL GOGGLE ~R~OFF" time 1000 
+018C: add_one_off_sound 0.0 0.0 0.0 sound 1083 
+0006: 10@ = 0 
+0001: wait 50 
+0002: goto @HIOCLEO_122 
+
+:HIOCLEO_5119
+0001: wait 0 
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+03C0: store_car_char_is_in_no_save $PLAYER_ACTOR store_to 3@ 
+0227: get_car_health 3@ store_to 11@ 
+0A30: fix_car 3@ 
+0224: set_car_health 3@ to 11@ 
+0ACD: print_string_now "HI0 CLEO : CARPARTS FIX" time 1000 
+0002: goto @HIOCLEO_122 
+
+:HIOCLEO_5196
+0001: wait 0 
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+00D6: if 
+0039:   12@ == 1 
+004D: goto_if_false @HIOCLEO_5232 
+0002: goto @HIOCLEO_5313 
+
+:HIOCLEO_5232
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+0001: wait 0 
+0006: 13@ = 22 
+0ACD: print_string_now "HI0 CLEO : MUBAN WEAPON ~B~ON" time 1000 
+018C: add_one_off_sound 0.0 0.0 0.0 sound 1084 
+0002: goto @HIOCLEO_5395 
+
+:HIOCLEO_5313
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+0001: wait 0 
+0006: 13@ = 22 
+0ACD: print_string_now "HI0 CLEO : MUBAN WEAPON ~R~OFF" time 1000 
+018C: add_one_off_sound 0.0 0.0 0.0 sound 1083 
+0002: goto @HIOCLEO_5463 
+
+:HIOCLEO_5395
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+0AB1: call @HIOCLEO_5531 4 13@ 56 2.0 4  
+000A: 13@ += 1 
+0019:   13@ > 32 
+004D: goto_if_false @HIOCLEO_5395 
+0006: 12@ = 1 
+0001: wait 0 
+0002: goto @HIOCLEO_122 
+
+:HIOCLEO_5463
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+0AB1: call @HIOCLEO_5531 4 13@ 56 1.0 4  
+000A: 13@ += 1 
+0019:   13@ > 32 
+004D: goto_if_false @HIOCLEO_5463 
+0006: 12@ = 0 
+0001: wait 0 
+0002: goto @HIOCLEO_122 
+
+:HIOCLEO_5531
+000A: 0@ += 36 
+0012: 0@ *= 112 
+000A: 0@ += 13150904 
+005A: 0@ += 1@ // (int) 
+0A8C: write_memory 0@ size 3@ val 2@ vp 0 
+0AB2: ret 0 
+
+:HIOCLEO_5581
+0001: wait 0 
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+0223: set_char_health $PLAYER_ACTOR to 0 
+0ACD: print_string_now "HI0 CLEO : SET DEAD" time 1000 
+0002: goto @HIOCLEO_122 
+
+:HIOCLEO_5632
+0001: wait 0 
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+00D6: if 
+04C8:   is_char_in_flying_vehicle $PLAYER_ACTOR 
+004D: goto_if_false @HIOCLEO_122 
+0002: goto @HIOCLEO_5666 
+
+:HIOCLEO_5666
+0001: wait 0 
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+02EB: restore_camera_jumpcut 
+0ACD: print_string_now "HI0 CLEO : AIRPLANE ANGLE" time 1000 
+00D6: if 
+8AB0:   not is_key_pressed 32 
+004D: goto_if_false @HIOCLEO_5666 
+0002: goto @HIOCLEO_122 
+
+:HIOCLEO_5733
+0001: wait 0 
+052C: set_player_drunkness $PLAYER_CHAR to 0 
+03C0: store_car_char_is_in_no_save $PLAYER_ACTOR store_to 3@ 
+04BA: set_car_forward_speed 3@ to 60.0 
+0ACD: print_string_now "HI0 CLEO : SOONGAN SPEED" time 1000 
+0002: goto @HIOCLEO_122 

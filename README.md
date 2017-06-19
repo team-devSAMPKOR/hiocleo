@@ -1,6 +1,6 @@
 
 <p>
-	HI0 CLEO 2017 EARLY STRUCTURE<p>
+	HI0 CLEO 2017 EARLY STRUCTURE <p>
 	<h5>
 
 	총알 1발증가 giveOneAmmo : F9 F11

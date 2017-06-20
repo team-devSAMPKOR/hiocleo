@@ -3,7 +3,7 @@
 	HI0 CLEO 2017 EARLY STRUCTURE <p>
 	<h5>
 
-	총알 1발증가 giveOneAmmo : F9 F11
+	총알 1발증가 giveOneAmmo : F9 F11 
 	무한 총알ON/OFF muhanAmmo : Backspace +
 	muhanAmmoON
 	muhanAmmoOFF

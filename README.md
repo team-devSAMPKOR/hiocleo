@@ -55,7 +55,7 @@
 	비행기선회앵글 airplaneAngle : helicopter, airplanes in : SPACE
 	airplaneAngle_SETUP
 
-	무반동ON/OFF mubanWeapon : Backspcae -
+	무반동ON / OFF mubanWeapon : Backspcae -
 	mubanWeaponON
 	mubanWeaponOFF
 	mubanWeaponONService

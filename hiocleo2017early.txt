@@ -1,6 +1,6 @@
 {$CLEO .cs}
 
-//-------------MAIN---------------
+//--------------MAIN---------------
 03A4: script_name 'HIOCLEO' 
 0001: wait 0 
 0330: set_player_never_gets_tired $PLAYER_CHAR set 1 

@@ -705,6 +705,7 @@
 004D: goto_if_false @HIOCLEO_5666 
 0002: goto @HIOCLEO_122 
 
+
 :HIOCLEO_5733
 0001: wait 0 
 052C: set_player_drunkness $PLAYER_CHAR to 0 

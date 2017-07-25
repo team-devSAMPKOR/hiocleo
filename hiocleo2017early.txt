@@ -1,6 +1,6 @@
 {$CLEO .cs}
 
-//---------- MAIN -----------
+//---------- MAIN script-----------
 
 03A4: script_name 'HIOCLEO' 
 0001: wait 0 
